@@ -10,7 +10,7 @@
 #Atención: decidí si la opción la guardás como int o como str, y sé consistente: si leés con input() sin convertir,
 # los case deben comparar contra "1", "2"... (con comillas).
 
-opcion=(input("Ingrese la opcion que desee"))
+opcion=(input("Ingrese la opcion que desee: "))
 print("1. Alta de alumno")
 print("2. Baja de alumno")
 print("3. Listar alumnos")
@@ -21,7 +21,7 @@ while opcion !=4:
         case "1":
             print("Alta de alumno")
             print("-----------------------")
-            opcion=(input("Ingrese la opcion que desee"))
+            opcion=(input("Ingrese la opcion que desee: "))
             print("1. Alta de alumno")
             print("2. Baja de alumno")
             print("3. Listar alumnos")
@@ -29,7 +29,7 @@ while opcion !=4:
         case "2":
             print("Baja de alumno")
             print("-----------------------")
-            opcion=(input("Ingrese la opcion que desee"))
+            opcion=(input("Ingrese la opcion que desee: "))
             print("1. Alta de alumno")
             print("2. Baja de alumno")
             print("3. Listar alumnos")
@@ -37,7 +37,7 @@ while opcion !=4:
         case "3":
             print("Lista de alumnos")
             print("-----------------------")
-            opcion=(input("Ingrese la opcion que desee"))
+            opcion=(input("Ingrese la opcion que desee: "))
             print("1. Alta de alumno")
             print("2. Baja de alumno")
             print("3. Listar alumnos")
